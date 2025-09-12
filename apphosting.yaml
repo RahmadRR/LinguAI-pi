@@ -1,0 +1,17 @@
+# Settings to manage and configure a Firebase App Hosting backend.
+# https://firebase.google.com/docs/app-hosting/configure
+
+runConfig:
+  # Increase this value for better performance, especially for AI-driven apps.
+  # Requires Blaze plan for values > 1.
+  cpu: 2
+  # Increase this value if you'd like to automatically spin up
+  # more instances in response to increased traffic.
+  maxInstances: 2
+# Pin the service to a specific location
+location: us-central1
+# Define secrets that will be available as environment variables.
+# You need to set these secrets in Google Cloud Secret Manager.
+# https://firebase.google.com/docs/app-hosting/configure#manage-secrets
+secrets:
+  - GOOGLE_API_KEY

@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "projekpi": "linguai-w2ix7"
+  },
+  "targets": {},
+  "etags": {}
+}
